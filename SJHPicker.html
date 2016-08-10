@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<link rel="stylesheet" type="text/css" href="css/SJHPicker.css">
+		<title>SJHPicker</title>
+	</head>
+	<body>
+		<input type="text" data-field="date" placeholder="请选择日期"/>
+		<div id="SJHPicker" style="display:none;">
+			<div class="sjhpicker_panel" onselectstart="return false;" unselectable="on">
+				<div class="sjhpicker_title">选择日期</div>
+				<div class="sjhpicker_myselector">
+					<div class="sjhpicker_btn_preyear"></div>
+					<div class="sjhpicker_btn_premonth"></div>
+					<div class ="sjhpicker_myvalue">2016 年 8 月</div>
+					<div class="sjhpicker_btn_nextmonth"></div>
+					<div class="sjhpicker_btn_nextyear"></div>
+				</div>
+				<div class="sjhpicker_days">
+					<div class="sjhpicker_day">一</div>
+					<div class="sjhpicker_day">二</div>
+					<div class="sjhpicker_day">三</div>
+					<div class="sjhpicker_day">四</div>
+					<div class="sjhpicker_day">五</div>
+					<div class="sjhpicker_day">六</div>
+					<div class="sjhpicker_day">日</div>
+				</div>
+				<div class="sjhpicker_dselector"></div>
+				<div class="sjhpicker_btnrow">
+					<div class="sjhpicker_btn_today">今日</div>
+					<div class="sjhpicker_btn_confirm">确认</div>
+					<div class="sjhpicker_btn_cancel">取消</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/SJHPicker.js"></script>
+		<script type="text/javascript">
+			SJHPicker.init({
+				max_date: '2016年9月20',
+			});
+		</script>
+	</body>
+</html>

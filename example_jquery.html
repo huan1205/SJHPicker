@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<title>SJHPicker_jquery</title>
+		<link rel="stylesheet" type="text/css" href="css/SJHPicker.css">
+		<script type="text/javascript" src="js/jquery-3.1.0.slim.min.js"></script>
+		<script type="text/javascript" src="js/SJHPicker-jquery.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				SJHPicker.init({
+					max_date: '2016-9-20',
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<input type="text" data-field="date" placeholder="请选择日期"/>
+		<div id="SJHPicker" style="display:none;"></div>
+	</body>
+	
+</html>

@@ -1,7 +1,7 @@
 /*!
- * SJHPicker v0.1.0 (https://github.com/weui/weui)
+ * SJHPicker v0.1.0 (https://github.com/ExTEnS10N/SJHPicker)
  * Copyright 2016 TurboExtension.
- * Licensed under the GPL license
+ * Licensed under the MIT license
  */
 Date.prototype.Format = function (fmt) {
 	var o = {

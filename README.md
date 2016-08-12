@@ -27,8 +27,8 @@ SJHPicker-jquery.js 依赖于 JQuery，换成zepto也不会有问题 （3.1.0 sl
 ### 1. 原生js
 
 所需文件：  
-(1). SJHPicker.css  
-(2). SJHPicker.js  
+- SJHPicker.css  
+- SJHPicker.js  
 
 ```
 <!DOCTYPE html>
@@ -59,10 +59,10 @@ SJHPicker-jquery.js 依赖于 JQuery，换成zepto也不会有问题 （3.1.0 sl
 ### 2. zepto
 
 所需文件：  
-(1). SJHPicker.css  
-(2). zepto.min.js  
-(3). zepto-touch.min.js //zepto 的 touch 模块，可自行合并到 zepto.js 中  
-(4). SJHPicker.js  
+- SJHPicker.css  
+- zepto.min.js  
+- zepto-touch.min.js //zepto 的 touch 模块，可自行合并到 zepto.js 中  
+- SJHPicker.js  
 
 ```
 <!DOCTYPE html>
@@ -98,9 +98,9 @@ SJHPicker-jquery.js 依赖于 JQuery，换成zepto也不会有问题 （3.1.0 sl
 ### 3. JQuery
 
 所需文件：  
-(1). SJHPicker.css  
-(2). jquery-3.1.0.slim.min.js  
-(3). SJHPicker.js  
+- SJHPicker.css  
+- jquery-3.1.0.slim.min.js  
+- SJHPicker.js  
 
 ```
 <!DOCTYPE html>

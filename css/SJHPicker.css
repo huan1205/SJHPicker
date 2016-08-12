@@ -1,8 +1,11 @@
 /*!
- * SJHPicker v0.1.0 (https://github.com/ExTEnS10N/SJHPicker)
- * Copyright 2016 TurboExtension.
- * Licensed under the MIT license
- */
+* Product: SJHPicker
+* Version: 0.2.0
+* Last Updated: 2016年8月12日 17:40:52
+*
+* Copyright (c) 2016 TurboExtension
+* Licensed under the MIT license
+*/
 #SJHPicker{
 	width: 100%;
 	height: 100%;
@@ -12,7 +15,7 @@
 	left: 0;
 			
 	display: flex;
-	font-family: 'PingHei', 'Helvetica Neue', 'Noto Sans', 'Droid Sans Fallback', 'Microsoft Yahei';
+	font-family: 'PingFang SC', 'Helvetica Neue', 'Noto Sans', 'Droid Sans Fallback', 'Microsoft Yahei';
 	background-color: rgba(0, 0, 0, 0.65);
 	text-align: center;
 }
@@ -63,8 +66,7 @@
 	display: flex;
 	flex-flow: column;
 	align-content: flex-start;
-	margin-left: auto;
-	margin-right: auto;
+	align-items: center;
 }
 .sjhpicker_dayrow{
 	display: flex;
@@ -110,13 +112,11 @@
 	width: 50px;
 	color: #888;
 }
-#sjhpicker_btn_today:active, .sjhpicker_btn_confirm:active{
+#sjhpicker_btn_today:active, #sjhpicker_btn_confirm:active{
 	color: rgba(242, 190, 69, 0.5);
-	border-radius: 5px;
 }
 #sjhpicker_btn_cancel:active{
 	color: rgba(136, 136, 136, 0.50);
-	border-radius: 5px;
 }
 
 #sjhpicker_btn_nextmonth, #sjhpicker_btn_premonth, #sjhpicker_btn_nextyear, #sjhpicker_btn_preyear{

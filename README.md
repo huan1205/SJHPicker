@@ -137,3 +137,6 @@ SJHPicker-jquery.js 依赖于 JQuery，换成zepto也不会有问题 （3.1.0 sl
 - [ ] 支持不同input不同预设；
 - [ ] 支持更多元素和事件，支持自行绑定；
 - [ ] 国际化支持；
+
+## License
+The MIT license.
